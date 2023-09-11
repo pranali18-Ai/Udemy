@@ -6,7 +6,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const ExpenseForm = () => {
     return (
-        <form>
+        <div>
+        <form className='container.sm p-5 my-5   bg-dark text-white  mt-sm-3 mb-sm-5 ' >
             <div className="new-expense__controls">
                 <div className="new-expense__control">
                     <label>Title</label>
@@ -31,10 +32,9 @@ const ExpenseForm = () => {
             <div className='new-expense__actions'>
                 <button type="submit">Add Expense</button>
                 </div>
-               
-
-        </form>
-        
+                <br />
+      </form>
+        </div>
         
 
         
