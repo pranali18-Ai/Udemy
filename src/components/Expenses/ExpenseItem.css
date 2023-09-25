@@ -15,7 +15,7 @@
     flex-flow: column-reverse;
     justify-content: flex-start;
     flex: 1;
-    align-items: left;
+    
   }
   
   .expense-item h2 {
@@ -34,6 +34,7 @@
     border: 1px solid white;
     padding: 0.5rem;
     border-radius: 12px;
+    
   }
   
   @media (min-width: 580px) {
